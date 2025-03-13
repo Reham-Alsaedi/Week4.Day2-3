@@ -1,0 +1,56 @@
+/* src/app/to-do-list/to-do-list.component.css */
+/* Container styles */
+.todo-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+/* Task list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.text-completed {
+  text-decoration: line-through;
+  color: #888;
+}
